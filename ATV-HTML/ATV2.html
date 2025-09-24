@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+        }
+        .entrada {
+            margin-top: 20px;
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 6px;
+            width: 65%;
+        }
+        button {
+            padding: 6px 12px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        ol {
+            margin-top: 20px;
+        }
+        /* Riscar tarefa quando checkbox estiver marcada */
+        li input[type="checkbox"]:checked + span {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Minhas Tarefas</h1>
+
+    <!-- Campo de entrada para nova tarefa -->
+    <div class="entrada">
+        <label for="novaTarefa">Digite uma nova tarefa:</label><br><br>
+        <input type="text" id="novaTarefa" placeholder="Ex: Estudar HTML">
+        <button type="button">Adicionar Tarefa</button>
+        <p><small>(O botão é apenas ilustrativo nesta versão)</small></p>
+    </div>
+
+    <!-- Lista ordenada de tarefas -->
+    <h2>Tarefas</h2>
+    <ol>
+        <li>
+            <label>
+                <input type="checkbox">
+                <span>Fazer exercícios de HTML</span>
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox">
+                <span>Ler sobre CSS</span>
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox">
+                <span>Praticar Lista de Tarefas</span>
+            </label>
+        </li>
+    </ol>
+
+</body>
+</html>
