@@ -6,16 +6,13 @@
     <title>Formulário de Contato</title>
 </head>
 <body>
-
-    <!-- Cabeçalho com imagem/banner -->
+ <center>
     <header>
-        <img src="https://via.placeholder.com/800x150?text=Banner+Loja+Exemplo" 
-             alt="Banner da Loja" width="800">
+        <img src="img/images.jpg" alt="Banner da Loja"  width="150" height="150">
         <h1>Formulário de Contato</h1>
         <p>Preencha os campos abaixo para solicitar informações ou serviços.</p>
     </header>
 
-    <!-- Formulário -->
     <form action="/enviar" method="post">
         <fieldset>
             <legend>Dados do Usuário</legend>
@@ -35,10 +32,10 @@
 
             <label for="produto">Selecione o produto/serviço:</label><br>
             <select id="produto" name="produto">
-                <option value="notebook">Notebook X100</option>
-                <option value="smartphone">Smartphone Ultra</option>
-                <option value="fone">Fone Bluetooth Pro</option>
-                <option value="monitor">Monitor 24"</option>
+                <option value="notebook">Bicicleta de 10km</option>
+                <option value="smartphone">Bicicleta de 50km</option>
+                <option value="fone">Bicicleta de 100km</option>
+                <option value="monitor">Bicicleta do kreitin km ilimitado</option>
             </select><br><br>
 
             <label for="mensagem">Mensagem:</label><br>
@@ -51,7 +48,6 @@
         <input type="reset" value="Limpar">
     </form>
 
-    <!-- Tabela de produtos/serviços -->
     <h2>Produtos/Serviços Disponíveis</h2>
     <table border="1" cellpadding="8" cellspacing="0">
         <tr>
@@ -60,28 +56,27 @@
             <th>Preço</th>
         </tr>
         <tr>
-            <td>Notebook X100</td>
-            <td>Notebook de alto desempenho para trabalho e estudos.</td>
+            <td>Bicicleta de 100km</td>
+            <td>essa bike corre 100km numa pista.</td>
             <td>R$ 3.500,00</td>
         </tr>
         <tr>
-            <td>Smartphone Ultra</td>
-            <td>Celular com câmera avançada e ótima performance.</td>
+            <td>Bicicleta de 50km</td>
+            <td>essa bike corre 50km numa pista.</td>
             <td>R$ 2.200,00</td>
         </tr>
         <tr>
-            <td>Fone Bluetooth Pro</td>
-            <td>Áudio de alta qualidade e bateria duradoura.</td>
+            <td>Bicicleta de 10km</td>
+            <td>essa bike corre 10km numa pista.</td>
             <td>R$ 350,00</td>
         </tr>
         <tr>
-            <td>Monitor 24"</td>
-            <td>Monitor Full HD ideal para games e trabalho.</td>
-            <td>R$ 1.100,00</td>
+            <td>Bicicleta do kreitin km ilimitado</td>
+            <td>essa bike é do kreitin do grau corre ilimitadamente.</td>
+            <td>R$ 999.999.999,99</td>
         </tr>
     </table>
 
-    <!-- Rodapé com links fictícios -->
     <footer>
         <hr>
         <p>Siga-nos nas redes sociais: 
@@ -90,6 +85,6 @@
             <a href="#">Twitter</a>
         </p>
     </footer>
-
+</center>
 </body>
 </html>
