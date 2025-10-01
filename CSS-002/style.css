@@ -1,0 +1,85 @@
+/*Criando o menu estilizado Simples*/
+
+nav{
+
+    background-color: #8D8768;
+    margin: 22px;
+    margin-right: 20px;
+
+}
+ul{
+
+    /*alinha os itens na horizontal*/
+    display: flex;
+
+}
+
+li{
+
+    /*list as bolinhas */
+    list-style: none;
+    padding: 20px;
+}
+a{
+
+    /*Tira o sublinhado da fonte*/
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+a:hover{
+
+    color: blue;
+    text-decoration: overline;
+    background-color: white;
+    padding: 50px;
+}
+h2{
+
+    padding: 10px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: #8D8768;
+    color: azure;
+    border: 1px solid blue;
+}
+img{
+
+    /*largura*/
+    width: 600px;
+    /*altura*/
+
+    height: 350px;
+    padding-left: 50x;
+    padding-top: 50px;
+}
+div{
+
+    display: flex;
+}
+
+p{
+
+    margin-right: 70px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+footer{
+ background-color: aqua;
+ margin-left: 22px;
+ margin-right: 80px;
+
+}
+h3{
+   padding-top: 20px;
+   text-align: center;
+   color: black;
+   margin-bottom: 22px;
+   padding-bottom: 22px;
+   /*Bottom é para baixo*/
+
+}
