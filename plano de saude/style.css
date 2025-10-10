@@ -18,11 +18,12 @@
    height: 250px;
 }
 .cs{
-
+    font-weight: bold;
     color: white;
-font-size: 13pt;
+     font-size: 13pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding-top: 100px;
-    font-weight: bold;
+    
+   
 }
