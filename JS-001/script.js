@@ -5,12 +5,10 @@ function validateform(){
 let nome = document.getElementById('nome').value;
 let email = document.getElementById('email').value;
 let senha = document.getElementById('senha').value;
-let confimsenha = document.getElementById('Confirmar senha').value;
+let confirmsenha = document.getElementById('confirmsenha').value;
 let errormessage = document.getElementById('error-message').value;
 
 errormessage.textContent = '';
-
-
 
 if(nome === ''){
     errormessage.textContent = 'Por favor , insira seu nome';
@@ -22,12 +20,12 @@ if(email === ''){
     return false;
 
 }
-if( senha !== ''){
+if( senha !== confirmsenha){
     errormessage.textContent = 'Por favor , insira sua senha corretamente';
     return false;
 
 }
-if(pass === ''){
+if(confirmsenha ===  senha){
     errormessage.textContent = 'Por favor , corrija a senha corretamnmte';
     return false;
 
