@@ -1,0 +1,190 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #b30000; /* 🔴 Vermelho forte */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container central para login, cadastro etc */
+.container, .login-container {
+  background-color: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* -----------------------------
+   TÍTULOS E TEXTOS
+----------------------------- */
+h1 {
+  text-align: center;
+  color: #b30000;
+  margin-bottom: 20px;
+}
+
+p, label {
+  color: #333;
+}
+
+/* -----------------------------
+   FORMULÁRIOS
+----------------------------- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #b30000;
+  outline: none;
+  box-shadow: 0 0 4px rgba(179, 0, 0, 0.5);
+}
+
+/* -----------------------------
+   BOTÕES
+----------------------------- */
+button, .botao {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover, .botao:hover {
+  background-color: #ff1a1a;
+}
+
+/* -----------------------------
+   LINKS E TEXTOS EXTRAS
+----------------------------- */
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #b30000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* -----------------------------
+   TABELAS
+----------------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #8e2727;
+  color: white;
+}
+
+/* -----------------------------
+   VOLTAR
+----------------------------- */
+.voltar {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #b30000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.voltar:hover {
+  text-decoration: underline;
+}
+/* -----------------------------
+   CLASSIFICAÇÃO (LISTA)
+----------------------------- */
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  margin: 30px auto;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.actions .botao {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.actions .sair {
+  background-color: #555;
+}
+
+.actions .sair:hover {
+  background-color: #222;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #b30000;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+tr:hover {
+  background-color: #ffe6e6;
+}

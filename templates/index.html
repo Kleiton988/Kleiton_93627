@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <p class="welcome-text">
+      Bem-vindo ao cadastro do Kreitin.<br>
+      Faça login na sua conta antes de poder usar o site.
+    </p>
+
+    <!-- Formulário de Login -->
+    <form action="/login" method="POST">
+      <label for="login">Login:</label>
+      <input type="text" id="login" name="login" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" placeholder="Informe sua senha" required>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <hr>
+
+    <!-- Formulário de Cadastro -->
+    <h2>Criar nova conta</h2>
+    <form action="/registrar" method="POST">
+      <label for="novo_login">Novo Login:</label>
+      <input type="text" id="novo_login" name="novo_login" required>
+
+      <label for="nova_senha">Nova Senha:</label>
+      <input type="password" id="nova_senha" name="nova_senha" required>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
